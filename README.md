@@ -5,7 +5,7 @@ A simple object oriented wrapper for the [RabbitMQ Management HTTP Api](http://h
 
 Uses [PHP-HTTP](http://docs.php-http.org/en/latest/index.html) for requests.
 
-A PHP 8-compatible fork of richardfullmer/rabbitmq-management-api.
+A PHP 8-compatible fork of andrewmy/rabbitmq-management-api.
 
 Installation
 ------------
@@ -13,7 +13,7 @@ Installation
 Installable through composer via:
 
 ```bash
-$ composer require andrewmy/rabbitmq-management-api
+$ composer require flowwow/rabbitmq-management-api
 ```
 
 Additionally, you require a [httplug compatible client](http://docs.php-http.org/en/latest/clients.html).

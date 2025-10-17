@@ -1,22 +1,10 @@
 {
-    "name": "andrewmy/rabbitmq-management-api",
+    "name": "flowwow/rabbitmq-management-api",
     "type": "library",
     "description": "An object oriented wrapper for the RabbitMQ Management HTTP Api; a PHP 8 fork from richardfullmer",
-    "homepage": "https://github.com/andrewmy/php-rabbitmq-management-api",
+    "homepage": "https://github.com/flowwow/php-rabbitmq-management-api",
     "keywords": ["rest", "message queue", "rabbitmq"],
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Richard Fullmer",
-            "email": "richardfullmer@gmail.com",
-            "homepage": "https://github.com/richardfullmer"
-        },
-        {
-            "name": "Andrew M-Y",
-            "email": "andrejs@gmail.com",
-            "homepage": "https://github.com/andrewmy"
-        }
-    ],
     "require": {
         "php": "^7.1|^8.0",
         "psr/http-message": "^1.0",
@@ -24,7 +12,8 @@
         "php-http/client-common": "^2.2.1",
         "php-http/httplug": "^2.0",
         "php-http/message-factory": "^1.0",
-        "php-http/discovery": "^1.0"
+        "php-http/discovery": "^1.0",
+        "andrewmy/rabbitmq-management-api": "^2.1"
     },
     "autoload": {
         "psr-4": {
@@ -34,6 +23,11 @@
     "extra": {
         "branch-alias": {
             "dev-master": "1.x-dev"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": false
         }
     }
 }
